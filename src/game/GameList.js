@@ -7,6 +7,11 @@ import './_styles.scss';
 class GameList extends Component {
   handleClick = () => {
     const { dispatch } = this.props;
+    let i = 0;
+    const obj = {
+      league: 'PHL',
+      i: i++,
+    };
 
     dispatch(createGame(obj));
   }
