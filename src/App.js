@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 
+import GameList from './game/GameList';
+
 class App extends Component {
   render() {
     return (
-      <h1>TExt eee</h1>
+      <div>
+        <h1>Hello</h1>
+        <GameList />
+      </div>
     );
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "referee",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hockey referee notepad",
   "main": "index.js",
   "scripts": {
     "build": "echo '=> building' && NODE_ENV=production ./node_modules/.bin/webpack --progress",
@@ -16,13 +16,22 @@
   "license": "ISC",
   "dependencies": {
     "react": "^15.2.1",
-    "react-dom": "^15.2.1"
+    "react-dom": "^15.2.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
     "webpack": "^1.13.1"
   }
 }
