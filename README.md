@@ -21,3 +21,14 @@ npm install
 
 ## Development
 ```
+npm run watch
+```
+
+Automatically recompiles when files are changed
+
+## Production
+```
+npm run build
+```
+
+Creates minified javascript and CSS
