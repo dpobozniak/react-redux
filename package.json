@@ -6,7 +6,7 @@
   "scripts": {
     "build": "echo '=> building' && NODE_ENV=production ./node_modules/.bin/webpack --progress",
     "start": "open index.html",
-    "watch": "./node_modules/.bin/webpack-dev-server --port=8765",
+    "watch": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server --port=8765",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
