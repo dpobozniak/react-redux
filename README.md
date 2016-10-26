@@ -16,7 +16,7 @@ Install [node.js](https://nodejs.org)
 Clone this repo and check out directory
 
 ```
-git clone git@github.com:DarekPobozniak/react-redux.git && cd react-redux
+git clone https://github.com/DarekPobozniak/react-redux.git && cd react-redux
 ```
 
 Install dependencies
